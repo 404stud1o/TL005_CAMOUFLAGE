@@ -1,0 +1,120 @@
+/* Style Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Noto Sans HK, sans-serif;
+    line-height: 1.5;
+}
+
+/* Left Alignment */
+.left15 {
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+    width: 20%;
+}
+
+/* Centre Alignment */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image 1-Line Alignment */
+.image_alignment {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap to new lines */
+    gap: 10px;
+    justify-content: center;
+}
+
+.image_alignment img {
+    max-width: auto;
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+@media (max-width: 1920px) {
+    .image_alignment img {
+        max-width: 100%;
+    }
+}
+
+/* Header */
+header {
+    background-color: #292A2D;
+    color: #ffffff;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #292A2D;
+    width: 100%;
+    position: fixed;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+/* Align the specific item to the left */
+nav ul li.align-left {
+    margin-right: auto;
+    /* Pushes this item to the left */
+}
+
+/* Adjust spacing for other items */
+nav ul li:not(.align-left) {
+    margin: 0 10px;
+    /* Add spacing between centered items */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    transition: text-shadow 0.3s ease;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #0A3F38;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Main Content */
+main {
+    background-color: #212327;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #292A2D;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,252 @@
+/* Style Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Noto Sans HK, sans-serif;
+    line-height: 1.25;
+    background: #212327;
+    color: #ffffff;
+}
+
+/* Logo Alignment */
+.left15 {
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+    width: 20%;
+}
+
+/* Centre Alignment */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', sans-serif;
+    line-height: 1.5;
+}
+
+/* Image 1-Line Alignment */
+.image_alignment {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap to new lines */
+    gap: 10px;
+    justify-content: center;
+}
+
+.image_alignment img {
+    max-width: auto;
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+@media (max-width: 1920px) {
+    .image_alignment img {
+        max-width: 100%;
+    }
+}
+
+/* Side Panel Alignment */
+.icon_alignment {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Image on left, text on right */
+    align-items: left;
+    gap: 10px;
+    max-width: 600px; /* Limit container width */
+    margin: 0 0; /* Center the container */
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+/* Header */
+header {
+    background-color: #292A2D;
+    color: #ffffff;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #292A2D;
+    width: 100%;
+    position: fixed;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+/* Align the specific item to the left */
+nav ul li.align-left {
+    margin-right: auto;
+    /* Pushes this item to the left */
+}
+
+/* Adjust spacing for other items */
+nav ul li:not(.align-left) {
+    margin: 0 10px;
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: px px;
+    transition: all 0.3s ease;
+    /* Add spacing between centered items */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    background: #0A3F38;
+    text-decoration: none;
+    text-shadow: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Main Content */
+main {
+    background-color: #212327;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #292A2D;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* Chatbot Setup & Style */
+.chat-container {
+    width: 640px;
+    height: 508px;
+    border: 0px #212327;
+    margin: 15px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 5px;
+    background: #212327;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin: 15px 0;
+    padding: 8px;
+    border-radius: 10px;
+    max-width: 80%;
+    font-size: 14px;
+    font-weight: bold;
+    transform: translateY(20px);
+    animation: fadeInUp 0.4s ease forwards;
+}
+
+.user-message {
+    background: #0A3F38;
+    color: #ffffff;
+    margin-left: auto;
+}
+
+.bot-message {
+    background: #ffffff;
+    color: #212327;
+    margin-right: auto;
+}
+
+.input-container {
+    display: flex;
+    gap: 5px;
+    background: transparent;
+}
+
+#user-input {
+    flex: 1;
+    padding: 8px;
+    background: #292A2D;
+    color: #ffffff;
+    border: 3px solid #0A3F38;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button {
+    padding: 8px 15px;
+    background: #0A3F38;
+    color: #205448;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.timestamp {
+font-size: 10px;
+color: #888888;
+margin-top: 4px;
+text-align: right;
+}
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
