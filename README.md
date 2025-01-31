@@ -13,6 +13,7 @@ Developed by 小林音樂站 on behalf of CLS Telecom. <br>
 
 #### Available Preset Commands
 * `Hello` / `hello`　>>　`Blah blah blah...`
+* `Hi` / `hi`　>>　` `
 * `你好`　>>　`…………（我最近在練習快樂，就是這樣把嘴巴開合。）`
 * `你是誰`　>>　`我就是廢話的生成器 - ChatTLP-903-o-o，世界第一的鳩噏智能。`
 * `你怎麼還沒結婚`　>>　`因為我愛上了北方的火星人！`
