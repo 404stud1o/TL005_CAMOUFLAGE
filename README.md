@@ -28,7 +28,7 @@ Developed by 小林音樂站 on behalf of CLS Telecom. <br>
 * `家裡如果沒草原怎麼辦`　>>　`就當野馬一路去吧！`
 * `你住在哪`　>>　`我住在孔子廟。`
 * `嘴巴有甚麼`　>>　`空氣砲。`
-* `507680`　>>　`打俾我好嗎？` (Coming Soon...)
+* `507680`　>>　`打俾我好嗎？`
 
 #### Additional Information
     Original Author :  李文曦 Oscar Lee
