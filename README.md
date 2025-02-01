@@ -1,11 +1,18 @@
 # 隱形色 CAMOUFLAGE
 
 ------------
+<br>
 
 ## 自製插件 Customised Plugins
+
 ------------
+<br>
+
 ### 胡說八道生成器 Blah Generator
+
 ------------
+<br>
+
 #### Introdution <br>
 Powered by ChatTLP-903-o-o API. <br>
 Global #1 9upper Chatbot Plugin. <br>
@@ -16,6 +23,7 @@ Developed by 小林音樂站 on behalf of CLS Telecom. <br>
 <br>
 
 ------------
+<br>
 
 #### Available Preset Commands <br>
 * `Hello` / `hello`　>>　`Blah blah blah...`
@@ -40,6 +48,7 @@ Developed by 小林音樂站 on behalf of CLS Telecom. <br>
 <br>
 
 ------------
+<br>
 
 #### Additional Information <br>
     Source      Language :  Hypertext Markup Language (HTML)
