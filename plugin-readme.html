@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>【嵌入式 GitHub README】 | 隱形色 CAMOUFLAGE</title>
+    <title>【自製插件使用手冊】 - GitHub嵌入式 | 隱形色 CAMOUFLAGE</title>
     <link rel="stylesheet" href="styles_readme.css">
 
     <!-- Include the Marked library from a CDN -->
@@ -31,17 +31,8 @@
     <main>
         <div>
             <br> <br> <br>
-                <h2 style="text-align: center;">嵌入式 Embedded README from GitHub</h2> <br>
+                <h2 style="text-align: center;">自製插件使用手冊 Handbook for Customised Plugins </h2> <br>
                 <br>
-        </div>
-    
-        <div class="left-text">
-            <p>
-                <a href="plugin-blah.html">
-                    Back <!-- ≪ Code: &#8810; -->
-                </a> <br>
-                <br>
-            </p>
         </div>
     
         <!-- Container for the rendered README -->
@@ -70,10 +61,20 @@
                 document.getElementById('readme-content').innerHTML = htmlContent;
             })
             .catch(error => {
-                console.error('README檔案索取錯誤 README file read error：', error);
-                document.getElementById('readme-content').innerText = 'README檔案載入錯誤。READ file load error.';
+                console.error('--- Plugin_README.md檔案索取錯誤：', error, '<br>', 'Plugin_README.md read error: ', error, ' ---');
+                document.getElementById('readme-content').innerText = '--- Plugin_README.md檔案載入錯誤。 Plugin_README.md file load error. ---';
             });
         </script>
+
+        <div class="left-text">
+            <br>
+            <p>
+                <a href="plugin-blah.html">
+                    [Back] <!-- ≪ Code: &#8810; -->
+                </a> <br>
+                <br>
+            </p>
+        </div>
     </main>
 
     <!-- Footer -->
