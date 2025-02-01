@@ -1,28 +1,28 @@
 # 隱形色 CAMOUFLAGE
 
-------------
+    Available Platform :  Microsoft Windows, MacOS, Linux, 
+                          Android, iOS, iPadOS, Blackberry
+
+<br>
+
+## 存取教學 Access Tutorial
+
+1. 
+
 <br>
 
 ## 自製插件 Customised Plugins
 
-------------
+Developed by 小林音樂站 on behalf of CLS Telecom. <br>
 <br>
 
 ### 胡說八道生成器 Blah Generator
 
-------------
-<br>
-
 #### Introdution <br>
 Powered by ChatTLP-903-o-o API. <br>
 Global #1 9upper Chatbot Plugin. <br>
-<br>
 我就是廢話的生成器 - ChatTLP-903-o-o，世界第一的鳩噏智能。<br>
-<br>
-Developed by 小林音樂站 on behalf of CLS Telecom. <br>
-<br>
 
-------------
 <br>
 
 #### Available Preset Commands <br>
@@ -47,14 +47,11 @@ Developed by 小林音樂站 on behalf of CLS Telecom. <br>
 
 <br>
 
-------------
-<br>
+## Additional Information <br>
+    Source        Language :  Hypertext Markup Language (HTML)
 
-#### Additional Information <br>
-    Source      Language :  Hypertext Markup Language (HTML)
-
-    First Published Date :  31 January 2025
+    Version Published Date :  1 February 2025
 
 <br>
 
-© 2025 軒公與小林音樂站 on behalf of CLS Telecom. All Rights Reserved.
+© 2025 軒公與小林音樂站 on behalf of CLS Telecom. All Rights Reserved. 
