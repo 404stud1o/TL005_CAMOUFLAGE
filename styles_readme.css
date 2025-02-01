@@ -8,6 +8,8 @@
 body {
     font-family: Noto Sans HK, sans-serif;
     line-height: 1.5;
+    background: #212327;
+    color: #ffffff;
 }
 
 /* Style for the README content container */
@@ -42,7 +44,7 @@ body {
     text-align: left;
     font-size: 14px;
     font-weight: bold;
-    font-style: oblique;
+    font-style: italic;
     line-height: 1.5;
     color: #0A3F38;
 

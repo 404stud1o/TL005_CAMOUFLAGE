@@ -35,6 +35,39 @@ body {
     line-height: 1.5;
 }
 
+.link-text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Noto Sans HK', sans-serif;
+    line-height: 1.5;
+    color: #0A3F38;
+
+    a:link {
+        color: #205448;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: #205448;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #0A3F38;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    
+    a:active {
+        color: #ffffff;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+}
+
 /* Image 1-Line Alignment */
 .image_alignment {
     display: flex;
